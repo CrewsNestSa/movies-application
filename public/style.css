@@ -9,6 +9,8 @@ html, body {
     margin-top: 75px;
     margin-bottom: 75px;
     text-align: center;
+    font-family: 'Abril Fatface', cursive;
+
 }
 
 /* Start by setting display:none to make this hidden.
@@ -36,7 +38,10 @@ html, body {
 h1 {
     text-align: center;
     font-size: xx-large;
-    font-family: ‘Roboto’, sans-serif;
+    color: #3ac2b4;
+    font-family: 'Shrikhand', cursive;
+    padding-top: 63px;
+    font-size: 40px;
 }
 
 #addMovie {
@@ -90,6 +95,10 @@ input {
     top: 0;
     right: 0;
     margin: 9px;
+    color: white;
 }
 Message Input
 
+h5 {
+    text-decoration: underline;
+}

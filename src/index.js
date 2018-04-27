@@ -8,7 +8,7 @@ const post = require('./api.js');
 // function to run through JSON file to create a card for each movie
 $(".loader").css("display", "block");
     function createCards() {
-         $(".row").html("Loading....");
+         $(".row").html("<h6>Loading....</h6>");
              post.getMovies().then((movies) => {
                  $(".loader").css("display", "none");
                  console.log('Here are all the movies:');
@@ -36,7 +36,7 @@ $(".loader").css("display", "block");
                                 <div class="form-group">
                                 <br style="margin: 3px">
                                     <input type="text" class="form-control newtitle${id}" value="${title}">
-                                    <small id="emailHelp" class="form-text text-muted">Change your movie.</small>
+                                    <div id="text" class="form-text text-muted">Change your movie.</div>
                                 </div>
                                 <div class="form-group">
                                     <form>
