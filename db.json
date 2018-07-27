@@ -1,14 +1,19 @@
 {
   "movies": [
     {
-      "title": "this Movie Rocks SA MY CORRECTION",
+      "title": "Mars Atttaks",
       "rating": "5",
-      "id": 8
+      "id": 1
     },
     {
-      "title": "this Movie Rocksa",
+      "title": "her fav movie is Willy Wonka and The Chocolate Factory OG Version",
       "rating": "5",
-      "id": 9
+      "id": 2
+    },
+    {
+      "title": "Planet of The Apes",
+      "rating": "2",
+      "id": 3
     }
   ]
 }
